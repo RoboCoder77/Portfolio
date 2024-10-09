@@ -1402,7 +1402,7 @@ pre code {
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    max-width: 66.33333%;
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
@@ -11627,14 +11627,14 @@ pre .code {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: relative;
+  -webkit-justify-content: relative;
+      -ms-flex-pack: relative;
+          justify-content:relative;
+  -webkit-box-align: relative;
+  -webkit-align-items: relative;
+      -ms-flex-align: relative;
+          align-items: relative;
   padding: 40px 0;
 }
 
@@ -11652,7 +11652,7 @@ pre .code {
 }
 
 .contact .map {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
