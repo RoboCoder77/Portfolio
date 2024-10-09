@@ -60,7 +60,18 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-
+.social-icons {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
+}
+.social-item {
+  list-style: none;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
